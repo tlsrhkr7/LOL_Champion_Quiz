@@ -1,5 +1,8 @@
 # LoL Champion Skill Quiz (C)
 
+## Result/Demo
+🎬 Demo (YouTube): https://youtu.be/jMwWmPeBHlk
+
 A console-based quiz game written in **C (Windows)**.  
 The program shows **League of Legends champion skill descriptions** and asks the user to guess the champion name.  
 It supports multiple difficulty modes and keeps a record of correct/incorrect answers.
