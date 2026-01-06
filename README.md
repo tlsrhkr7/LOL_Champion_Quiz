@@ -27,16 +27,3 @@ It supports multiple difficulty modes and keeps a record of correct/incorrect an
 5. At the end, the program prints:
    - all correctly answered champions
    - all incorrectly answered champions
-
-## Build (Windows)
-This project uses Windows console behavior (`system("cls")`) and includes `<windows.h>`.
-
-### Option 1) Visual Studio (Recommended)
-1. Create a **Console App (C)** project
-2. Paste the code into `main.c`
-3. Build & Run
-
-### Option 2) MinGW (GCC) on Windows
-```bash
-gcc main.c -o quiz.exe
-./quiz.exe
