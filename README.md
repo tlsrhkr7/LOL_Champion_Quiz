@@ -1,29 +1,55 @@
-# LoL Champion Skill Quiz (C)
+# 🎮 LoL Champion Skill Quiz
 
-## Result/Demo
-🎬 Demo (YouTube): https://youtu.be/jMwWmPeBHlk
+> **리그 오브 레전드 챔피언 스킬 퀴즈** — 챔피언의 스킬 설명을 보고 챔피언 이름을 맞히는 C 기반 콘솔 퀴즈 게임입니다. (Windows)
 
-A console-based quiz game written in **C (Windows)**.  
-The program shows **League of Legends champion skill descriptions** and asks the user to guess the champion name.  
-It supports multiple difficulty modes and keeps a record of correct/incorrect answers.
+🎬 **데모 영상 (YouTube)**: https://youtu.be/jMwWmPeBHlk
 
-## Features
-- 3 difficulty modes:
-  - **Easy**: shows Passive + Q/W/E/R
-  - **Normal**: shows Q/W/E only
-  - **Hard**: shows Passive only
-- Select number of questions: **10 / 30 / 50**
-- Randomized champion order each run (shuffle)
-- Stores and prints results:
-  - Correct list
-  - Incorrect list (with the correct answer)
-- Uses a simple **linked list** to store solved questions
+---
 
-## How it works
-1. Choose difficulty (Easy/Normal/Hard)
-2. Choose number of questions (10/30/50)
-3. For each question, the program prints skill descriptions
-4. User types the champion name (Korean name strings in this version)
-5. At the end, the program prints:
-   - all correctly answered champions
-   - all incorrectly answered champions
+## 📌 프로젝트 개요
+
+리그 오브 레전드 챔피언의 스킬 설명을 화면에 출력하고, 사용자가 해당 챔피언의 이름을 추측하는 콘솔 기반 퀴즈 게임입니다. 여러 난이도 모드를 지원하며, 정답과 오답 기록을 저장하여 게임 종료 시 보여줍니다.
+
+---
+
+## ✨ 주요 기능
+
+| 기능 | 설명 |
+|------|------|
+| 3단계 난이도 | Easy(패시브 + Q/W/E/R), Normal(Q/W/E), Hard(패시브만) |
+| 문제 수 선택 | 10문제 / 30문제 / 50문제 |
+| 무작위 출제 | 매 실행마다 챔피언 순서를 셔플 |
+| 결과 저장 | 정답 목록 / 오답 목록(정답 함께 표시) 출력 |
+| 연결 리스트 | 풀이한 문제를 연결 리스트(linked list)로 저장 |
+
+---
+
+## 🏗️ 동작 방식
+
+```
+[난이도 선택] → [문제 수 선택] → [문제 출제(스킬 설명 출력)]
+        → [사용자 입력(챔피언 한글 이름)] → [정답/오답 판정]
+        → ... 반복 ... → [최종 결과 출력(정답/오답 목록)]
+```
+
+1. 난이도 선택 (Easy / Normal / Hard)
+2. 문제 수 선택 (10 / 30 / 50)
+3. 각 문제마다 스킬 설명 출력
+4. 사용자가 챔피언 이름 입력 (이 버전은 한글 이름 문자열 사용)
+5. 게임 종료 시 정답을 맞힌 챔피언 목록과 틀린 챔피언 목록 출력
+
+---
+
+## 🛠️ 기술 스택
+
+| 분류 | 기술 |
+|------|------|
+| 언어 | C |
+| 플랫폼 | Windows |
+| 자료구조 | 연결 리스트 (Linked List) |
+
+---
+
+## 👤 개발자
+
+- **tlsrhkr7** (Dongjun Shin) — 오픈소스기초프로젝트
