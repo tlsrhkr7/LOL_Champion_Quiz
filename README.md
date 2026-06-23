@@ -2,7 +2,11 @@
 
 리그 오브 레전드 챔피언의 스킬 설명을 보고 챔피언 이름을 맞히는 C 기반 콘솔 퀴즈 게임입니다. (Windows)
 
-데모 영상(YouTube): https://youtu.be/jMwWmPeBHlk
+## 데모 영상
+
+아래 이미지를 클릭하면 YouTube에서 시연 영상을 볼 수 있습니다.
+
+[<img src="https://img.youtube.com/vi/jMwWmPeBHlk/hqdefault.jpg" width="480">](https://youtu.be/jMwWmPeBHlk)
 
 ## 개요
 
